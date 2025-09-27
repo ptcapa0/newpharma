@@ -1,0 +1,62 @@
+// data/site.json
+{
+  "brand": {
+    "name": "Next Pharma",
+    "tagline": "Medicamentos críticos, acesso global — Born in Portugal, serving Europe.",
+    "confidential": true,
+    "logoUrl": "/public/brand/logo.svg"
+  },
+  "problem": {
+    "bullets": [
+      "100% dos países UE reportam shortages",
+      "Alemanha: +1.426 alertas em 2023",
+      "40% da população FR afetada em 2024"
+    ],
+    "narrative": "Monetizable pain: arbitragem de disponibilidade, não apenas preço.",
+    "topSkus": ["antibióticos", "GLP-1", "oncológicos"]
+  },
+  "model": {
+    "summary": "Broker-first + 3PL GDP + QMS lean",
+    "lanes": ["PT", "ES", "MT", "GR"],
+    "outsourcing": ["DT/QP", "IT", "logística"],
+    "usp": "Rapidez & compliance no abastecimento emergencial"
+  },
+  "gtm": {
+    "segments": {
+      "tier1_public": ["SERGAS", "ARS", "ULS"],
+      "tier2_private": ["CUF", "Vithas", "Quirónsalud"],
+      "alliances": ["BELDIMED", "GPW", "CPSU Malta"]
+    },
+    "strategy": ["tender hygiene", "alliance mgmt", "private diversification"]
+  },
+  "financials": {
+    "revenue": [
+      { "year": 1, "eur": 1000000 },
+      { "year": 2, "eur": 1500000 },
+      { "year": 3, "eur": 1850000 },
+      { "year": 4, "eur": 2200000 },
+      { "year": 5, "eur": 2500000 }
+    ],
+    "gmPct": [
+      { "year": 1, "pct": 24.25 },
+      { "year": 5, "pct": 25.0 }
+    ],
+    "ebitda": [
+      { "year": 1, "eur": -120000 },
+      { "year": 2, "eur": 0 },
+      { "year": 3, "eur": 90000 },
+      { "year": 4, "eur": 180000 },
+      { "year": 5, "eur": 260000 }
+    ],
+    "cashTroughEur": -205800
+  },
+  "incentives": [
+    "Portugal 2030: Empreendedorismo Qualificado (até 75% não reembolsável)",
+    "SIFIDE: I&D digital sourcing, integração NMVS",
+    "IEFP: apoios contratação inicial"
+  ],
+  "timeline90": ["WDA", "MVP broker-first", "Candidaturas PT2030", "Primeiras vendas lanes PT/ES"],
+  "contacts": { "email": "invest@nextpharma.example", "phone": "+351 000 000 000" },
+  "dataroom": [{ "label": "Investor Handout", "href": "/public/dataroom/investor-handout.pdf" }],
+  "legal": { "jurisdiction": "PT/EU", "disclaimer": "Confidential — For Discussion Only" }
+}
