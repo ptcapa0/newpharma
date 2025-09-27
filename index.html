@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Next Pharma — Investor Pitch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="./assets/i18n.js"></script>
+  <script type="module" src="./assets/app.js"></script>
+</head>
+<body class="bg-white text-slate-900">
+  <div id="site-header"></div>
+  <main class="container py-8">
+    <section id="hero" class="mb-8" aria-label="Hero"></section>
+
+    <section class="grid md:grid-cols-2 gap-6">
+      <div id="problem"></div>
+      <div id="cash-callout" aria-live="polite"></div>
+    </section>
+
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold mb-3">Partners & Private Providers</h2>
+      <div id="logo-cloud"></div>
+    </section>
+
+    <div class="no-print mt-8">
+      <a class="underline" href="contact.html">Contact</a>
+      <button class="ml-3 underline" onclick="window.print()">Print</button>
+    </div>
+  </main>
+  <div id="site-footer" class="print-only"></div>
+</body>
+</html>
