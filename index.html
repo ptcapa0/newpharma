@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Pharma | Investor Pitch Deck</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        // Custom Tailwind CSS Configuration
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#00D4B5', // New Pharma Teal
+                        'primary-hover': '#00b39a',
+                        'background-dark': '#0A2540', // New Pharma Dark Blue
+                        'card-dark': '#0f2d4e',
+                        'text-light': '#E0E6F0',
+                        'text-muted': '#A0AEC0',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        /* Small CSS additions for smooth experience */
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-background-dark font-sans text-text-light">
+
+    <header id="header" class="bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-700/50">
+        <nav class="container mx-auto px-4 lg:px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#hero" class="text-2xl font-bold">New Pharma</a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#market-pain" class="hover:text-primary transition-colors">Market Pain</a>
+                    <a href="#solution" class="hover:text-primary transition-colors">Solution</a>
+                    <a href="#clients" class="hover:text-primary transition-colors">Clients</a>
+                    <a href="#financials" class="hover:text-primary transition-colors">Financials</a>
+                    <a href="#team" class="hover:text-primary transition-colors">Team</a>
+                    <a href="#contact" class="hover:text-primary transition-colors">Contact</a>
+                </div>
+                <a href="#" class="hidden md:inline-block bg-primary text-background-dark font-semibold px-5 py-2 rounded-md hover:bg-primary-hover transition-colors">
+                    Investor Pack
+                </a>
+                <button id="mobile-menu-button" class="md:hidden p-2 rounded-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <a href="#market-pain" class="block py-2 px-3 rounded hover:bg-card-dark transition-colors">Market Pain</a>
+                <a href="#solution" class="block py-2 px-3 rounded hover:bg-card-dark transition-colors">Solution</a>
+                <a href="#clients" class="block py-2 px-3 rounded hover:bg-card-dark transition-colors">Clients</a>
+                <a href="#financials" class="block py-2 px-3 rounded hover:bg-card-dark transition-colors">Financials</a>
+                <a href="#team" class="block py-2 px-3 rounded hover:bg-card-dark transition-colors">Team</a>
+                <a href="#contact" class="block py-2 px-3 rounded hover:bg-card-dark transition-colors">Contact</a>
+                <a href="#" class="block w-full text-center mt-2 bg-primary text-background-dark font-semibold px-5 py-2 rounded-md hover:bg-primary-hover transition-colors">
+                    Investor Pack
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="py-24 md:py-32">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Access to Critical Medicines, <span class="text-primary">Born Global.</span>
+                </h1>
+                <p class="max-w-3xl mx-auto text-lg md:text-xl text-text-muted mb-10">
+                    New Pharma ensures resilient supply of shortage medicines across Europe, leveraging a tech-driven, asset-light model from Portugal.
+                </p>
+                <a href="#" class="bg-primary text-background-dark font-semibold px-8 py-4 rounded-lg hover:bg-primary-hover transition-transform transform hover:scale-105">
+                    Download Investor Pack PDF
+                </a>
+            </div>
+        </section>
+
+        <section id="market-pain" class="py-20 bg-card-dark/50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">A Systemic EU Crisis is Our Market Opportunity</h2>
+                    <p class="max-w-2xl mx-auto mt-4 text-text-muted">Medicine shortages are not incidental; they are a chronic failure of the supply chain, creating a clear and urgent need.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50">
+                        <span class="text-primary text-5xl font-bold">100%</span>
+                        <p class="mt-2 text-text-muted">of EU member states consistently report critical medicine shortages.</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50">
+                        <span class="text-primary text-5xl font-bold">1,426</span>
+                        <p class="mt-2 text-text-muted">shortage alerts were issued in Germany alone in 2023, a 3x increase since 2021.</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50">
+                        <span class="text-primary text-5xl font-bold">40%</span>
+                        <p class="mt-2 text-text-muted">of the French population was directly affected by shortages in early 2024.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="solution" class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">An Asset-Light, Tech-Driven Solution</h2>
+                    <p class="max-w-2xl mx-auto mt-4 text-text-muted">Our model is designed for scalability and regulatory compliance from day one, minimizing CAPEX and maximizing flexibility.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center">
+                        <div class="flex justify-center items-center mb-4 h-12 w-12 rounded-full bg-primary/20 mx-auto">
+                            <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Broker-First & 3PL</h3>
+                        <p class="text-text-muted">We leverage a certified 3PL network under our WDA, avoiding costly infrastructure while ensuring full GDP compliance.</p>
+                    </div>
+                    <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center">
+                         <div class="flex justify-center items-center mb-4 h-12 w-12 rounded-full bg-primary/20 mx-auto">
+                            <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Lean QMS & Automation</h3>
+                        <p class="text-text-muted">Our digitally-native Quality Management System and automated workflows ensure speed, compliance, and scalability.</p>
+                    </div>
+                    <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center">
+                         <div class="flex justify-center items-center mb-4 h-12 w-12 rounded-full bg-primary/20 mx-auto">
+                            <svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m0 18a9 9 0 009-9M3 12a9 9 0 019-9"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Born-Global & Remote</h3>
+                        <p class="text-text-muted">A remote-first structure allows us to tap into a global talent pool and operate efficiently across PT, ES, MT, & GR.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="py-20 bg-card-dark/50">
+             <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Go-to-Market: Strategic Tiers & Alliances</h2>
+                    <p class="max-w-2xl mx-auto mt-4 text-text-muted">We target high-value public and private channels, building a defensible position through a formal Partner Alliance program.</p>
+                </div>
+                <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50">
+                    <h3 class="text-xl font-semibold text-center mb-6">Tier 1 & 2 Client Portfolio Examples</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+                        <p class="text-center font-bold text-text-muted text-lg">CPSU Malta</p>
+                        <p class="text-center font-bold text-text-muted text-lg">IFET Greece</p>
+                        <p class="text-center font-bold text-text-muted text-lg">AEMPS Spain</p>
+                        <p class="text-center font-bold text-text-muted text-lg">Hospitals Shortages PT</p>
+                        <p class="text-center font-bold text-text-muted text-lg">International Market Opportunities</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+        
+        <section id="financials" class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Financial Highlights (Base v0.1)</h2>
+                    <p class="max-w-2xl mx-auto mt-4 text-text-muted">Our model projects strong, capital-efficient growth, reaching profitability in Y2 with a modest working capital need.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center transform hover:scale-105 hover:border-primary transition-all">
+                        <p class="text-text-muted text-sm uppercase tracking-wider">Revenue (Y1-Y5)</p>
+                        <p class="text-4xl font-bold text-primary mt-2">€1M → €2.5M</p>
+                    </div>
+                     <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center transform hover:scale-105 hover:border-primary transition-all">
+                        <p class="text-text-muted text-sm uppercase tracking-wider">Gross Margin</p>
+                        <p class="text-4xl font-bold text-primary mt-2">~25%</p>
+                    </div>
+                     <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center transform hover:scale-105 hover:border-primary transition-all">
+                        <p class="text-text-muted text-sm uppercase tracking-wider">EBITDA Break-Even</p>
+                        <p class="text-4xl font-bold text-primary mt-2">Year 2</p>
+                    </div>
+                     <div class="bg-card-dark p-8 rounded-xl border border-gray-700/50 text-center transform hover:scale-105 hover:border-primary transition-all">
+                        <p class="text-text-muted text-sm uppercase tracking-wider">Cash Trough</p>
+                        <p class="text-4xl font-bold text-primary mt-2">-€205k</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="incentives" class="py-20 bg-card-dark/50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">De-Risked Growth & Clear Roadmap</h2>
+                    <p class="max-w-2xl mx-auto mt-4 text-text-muted">We leverage Portugal's robust incentive ecosystem to de-risk investment and accelerate our 90-day launch plan.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50">
+                        <h3 class="text-xl font-bold mb-2">Portugal 2030</h3>
+                        <p class="text-text-muted">Up to 75% non-dilutive grant funding via "Empreendedorismo Qualificado".</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50">
+                        <h3 class="text-xl font-bold mb-2">SIFIDE Tax Credit</h3>
+                        <p class="text-text-muted">Generous R&D tax credits for our data and automation platform development.</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50">
+                        <h3 class="text-xl font-bold mb-2">IEFP Hiring Support</h3>
+                        <p class="text-text-muted">Subsidies for hiring qualified talent, reducing initial OPEX.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="py-20">
+            <div class="container mx-auto px-4">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">The Core Team</h2>
+                    <p class="max-w-2xl mx-auto mt-4 text-text-muted">A lean, execution-focused team with deep industry expertise in pharma distribution, supply chain, and GTM.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50 text-center">
+                        <h3 class="text-xl font-bold">Founder / CEO</h3>
+                        <p class="text-text-muted mt-2">Strategy, P&L, Governance</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50 text-center">
+                        <h3 class="text-xl font-bold">Supply Chain Lead</h3>
+                        <p class="text-text-muted mt-2">Sourcing, 3PL, QA Interface</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50 text-center">
+                        <h3 class="text-xl font-bold">Sales Lead</h3>
+                        <p class="text-text-muted mt-2">Pipeline, GTM, Pricing</p>
+                    </div>
+                    <div class="bg-card-dark p-6 rounded-xl border border-gray-700/50 text-center">
+                        <h3 class="text-xl font-bold">Advisory Board</h3>
+                        <p class="text-text-muted mt-2">QP, Regulatory, Tech</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-card-dark/50">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold">Contact Us</h2>
+                <p class="max-w-2xl mx-auto mt-4 mb-8 text-text-muted">We are seeking ~€200k in working capital to launch operations. Let's discuss how we can build the future of critical medicine access together.</p>
+                <a href="mailto:info@newpharma.eu" class="bg-primary text-background-dark font-semibold px-8 py-4 rounded-lg hover:bg-primary-hover transition-transform transform hover:scale-105">
+                    info@newpharma.eu
+                </a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="border-t border-gray-700/50">
+        <div class="container mx-auto px-4 py-6 text-center text-text-muted">
+            <p>&copy; 2025 New Pharma Trading, Lda. | Confidential — For Discussion Only</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelectorAll('#mobile-menu a');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
