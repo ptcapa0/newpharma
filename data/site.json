@@ -1,7 +1,6 @@
-// data/site.json
 {
   "brand": {
-    "name": "Next Pharma",
+    "name": "New Pharma",
     "tagline": "Medicamentos críticos, acesso global — Born in Portugal, serving Europe.",
     "confidential": true,
     "logoUrl": "/public/brand/logo.svg"
@@ -23,9 +22,9 @@
   },
   "gtm": {
     "segments": {
-      "tier1_public": ["SERGAS", "ARS", "ULS"],
-      "tier2_private": ["CUF", "Vithas", "Quirónsalud"],
-      "alliances": ["BELDIMED", "GPW", "CPSU Malta"]
+      "tier1_public": ["Hospitals Iberia"],
+      "tier2_private": ["Hospitals Iberia"],
+      "alliances": ["IFET Greece", "CPSU Malta", "Internacional Trading Partners"]
     },
     "strategy": ["tender hygiene", "alliance mgmt", "private diversification"]
   },
